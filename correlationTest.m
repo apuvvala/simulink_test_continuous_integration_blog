@@ -4,7 +4,7 @@ function tests = correlationTest
 tests = functiontests(localfunctions);
 
 function testCorrelationWithDesiredSignal(testCase)
-model = 'audioanc_mabdemo';
+model = 'audioanc_demo';
 
 % Simulate the model
 simout = sim(model, 'StopTime', '5');
